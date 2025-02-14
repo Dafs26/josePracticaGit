@@ -1,10 +1,12 @@
-
+import Header from "./components/Header"
 
 function App() {
 //componente principal
   return (
     <>
-   <h1 className="text-6xl">calculo de horas</h1>
+      <div className="my-20 max-w-lg mx-auto bg-white shadow p-10 rounded-lg">
+        <Header />
+      </div>
     </>
 
   )
