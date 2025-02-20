@@ -5,7 +5,7 @@ import mongoose from 'mongoose';
 //importamos bcrypt para encriptar la contraseña
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import generarId from '../helpers/generarId';
+import generarId from '../helpers/generarId.js';
 //definimos el esquema del usuario
 const userSchema = new mongoose.Schema({
     nombre: {
