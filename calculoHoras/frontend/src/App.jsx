@@ -8,7 +8,7 @@ function App() {
 //componente principal
   return (
     <>
-    <div className=" h-full bg-linear-to-t from-sky-100 to-indigo-500 ">
+    <div className="flex flex-col min-h-screen bg-linear-to-t from-sky-100 to-indigo-500 ">
 
       <div className="max-w-3xl  mx-auto my-auto bg-white shadow shadow-indigo-300 p-10 m-10 rounded-lg">
         <div className=" my-10 max-w-lg mx-auto bg-white shadow-lg  shadow-indigo-300 p-10 rounded-lg">
@@ -23,7 +23,8 @@ function App() {
            
          </div>
       </div>  
-    </div> {/* contenedor principal */}    <Footer/>
+      <Footer/>
+    </div> {/* contenedor principal */}    
     </>
 
   )
