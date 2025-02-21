@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Button from "./components/Button"
 import Hero from "./components/Hero"
 import Footer from "./components/Footer"
+import Contador from "./components/Contador"
 
 
 function App() {
@@ -17,10 +18,9 @@ function App() {
         <div className="flex my-20">
          <Button text="Iniciar sesion" fn={()=>{}}/>
          <Button text="Registrarse" fn={()=>{}}/>
-
         </div>
         <div className=" my-60 ">
-           
+          <Contador horaEntrada='15' horaSalida='22'/> 
          </div>
       </div>  
       <Footer/>
